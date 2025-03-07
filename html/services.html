@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnih</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/services.css" />
+    <link rel="stylesheet" href="../css/theme.css" />
+
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <input type="checkbox" id="burger" class="header__checkbox" />
+        <label class="burger" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="header__logo-container">
+          <a href="../index.html">
+            <img
+              src="../img/logo_furnih.svg"
+              alt="Furnih"
+              class="header__logo"
+            />
+          </a>
+        </div>
+
+        <input type="checkbox" id="theme-switch" class="theme" hidden />
+        <label for="theme-switch" class="ui-switch">
+          <div class="slider">
+            <div class="circle"></div>
+          </div>
+        </label>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="../index.html">Home</a>
+              <img class="arrow_img" src="../img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <a href="products.html">Products</a>
+              <img class="arrow_img" src="../img/arrow.svg" alt="" />
+            </li>
+
+            <li class="header__nav-item">
+              <a href="services.html">Services</a>
+              <img class="arrow_img" src="../img/arrow.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <ul>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="services">
+      <h2 class="services__title">Our Premium Services</h2>
+
+      <div class="services__grid">
+        <div class="service-item">
+          <img src="../img/services1.png" alt="Interior Design" />
+          <h3>Interior Design</h3>
+          <p>
+            We help you create the perfect space with our expert design
+            services.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="../img/services2.png" alt="Furniture Customization" />
+          <h3>Furniture Customization</h3>
+          <p>Customize furniture to match your style and home aesthetics.</p>
+        </div>
+        <div class="service-item">
+          <img src="../img/services3.png" alt="Delivery & Assembly" />
+          <h3>Delivery & Assembly</h3>
+          <p>Fast and reliable delivery with professional assembly included.</p>
+        </div>
+      </div>
+    </section>
+    <section class="form background_two">
+      <h2 class="services__title">Get in Touch</h2>
+      <form class="contact-form">
+        <div class="inputGroup">
+          <input type="text" id="name" name="name" required placeholder=""/>
+          <label for="name">Name</label>
+        </div>
+        <div class="inputGroup">
+          <input type="text" id="lastname" name="lastname" required placeholder="" />
+          <label for="lastname">Last Name</label>
+        </div>
+        <div class="inputGroup">
+          <input type="email" id="email" name="email" required placeholder="" />
+          <label for="email">Email</label>
+        </div>
+        <div class="inputGroup">
+          <input type="tel" id="telehone" name="telephone" required placeholder />
+          <label for="telephone">Telephone</label>
+        </div>
+        <div class="inputGroup">
+          <input list="ciudades" name="ciudad" required placeholder=""/>
+          <label for="ciudad">City</label>
+          <datalist id="ciudades">
+            <option value="">Select a city</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Valencia">Valencia</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Zaragoza">Zaragoza</option>
+            <option value="Málaga">Málaga</option>
+            <option value="Murcia">Murcia</option>
+            <option value="Palma">Palma</option>
+            <option value="Las Palmas">Las Palmas</option>
+            <option value="Bilbao">Bilbao</option>
+          </datalist>
+        </div>
+        <div class="inputGroup">
+          <input list="service" name="service" required placeholder="" />
+          <label for="service">Select a Service</label>
+          <datalist id="service">
+            <option value="Interior Design">Interior Design</option>
+            <option value="Furniture Customization">
+              Furniture Customization
+            </option>
+            <option value="Delivery & Assembly">Delivery & Assembly</option>
+          </datalist>
+        </div>
+
+        <div class="form-group checkbox-group checkbox-wrapper-46">
+          <input type="checkbox" id="cbx-46" class="inp-cbx" />
+          <label for="cbx-46" class="cbx"
+            ><span>
+              <svg viewBox="0 0 12 10" height="10px" width="12px">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+            ><span>I agree to the terms and conditions</span>
+          </label>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-social">
+        <div>
+          <img src="../img/logo_furnih.svg" alt="" />
+          <p>
+            Specializes In Providing High-Quality, Stylish<br />Products For
+            Your Home
+          </p>
+        </div>
+        <div class="social-container">
+          <div class="social">
+            <img src="../img/instagram.svg" alt="" />
+          </div>
+          <div class="social">
+            <img src="../img/pinterest.svg" alt="" />
+          </div>
+          <div class="social">
+            <img src="../img/facebook.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

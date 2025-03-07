@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnih</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <input type="checkbox" id="burger" class="header__checkbox" />
+        <label class="burger" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="header__logo-container">
+          <a href="index.html">
+            <img src="img/logo_furnih.svg" alt="Furnih" class="header__logo" />
+          </a>
+        </div>
+
+        <input type="checkbox" id="theme-switch" class="theme" hidden />
+        <label for="theme-switch" class="ui-switch">
+          <div class="slider">
+            <div class="circle"></div>
+          </div>
+        </label>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#">Home</a>
+              <img class="arrow_img" src="img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <a href="html/products.html">Products</a>
+              <img class="arrow_img" src="img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <a href="html/services.html">Services</a>
+              <img class="arrow_img" src="img/arrow.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <ul>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-img">
+        <picture>
+          <source
+            srcset="img/header-laptop.png"
+            type="image/png"
+            media="(min-width: 1024px)"
+          />
+
+          <source srcset="img/header.png" type="image/png" />
+
+          <img src="img/header.png" alt="" />
+        </picture>
+      </div>
+      <div class="main-points">
+        <div class="main-points__items">
+          <img src="img/icon-01.svg" alt="Easy For Shopping" />
+          <p>Easy For Shopping</p>
+        </div>
+        <div class="main-points__items">
+          <img src="img/icon-02.svg" alt="Fast & Free Shipping" />
+          <p>Fast & Free Shipping</p>
+        </div>
+        <div class="main-points__items">
+          <img src="img/icon-03.svg" alt="24/7 Support" />
+          <p>25/7 Support</p>
+        </div>
+        <div class="main-points__items">
+          <img src="img/icon-04.svg" alt="Money Back Guarantee" />
+          <p>Money Back Guarantee</p>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div class="furniture-design">
+        <div class="furniture-design__img">
+          <img src="img/card.png" alt="Furniture design" />
+        </div>
+        <div class="furniture-design__text">
+          <span class="highlight">furniture design ideas</span>
+          <p>
+            Explore furnih's curated collection of a classic contemporary pieces
+            designed to create luxury and functional living spaces
+          </p>
+          <div class="button">
+            <span>Shop Now</span>
+            <img src="img/arrow-button.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="background_two">
+      <div class="grid-container">
+        <div class="card table">
+          <div class="card_information">
+            <div class="card_items">
+              <span><strong class="blue">1200+</strong> Item</span>
+            </div>
+            <h3>Table</h3>
+            <p class="card_list">
+              <span>Folding table</span> <span>desk</span>
+              <span>dining table</span> <span>coffee table</span>
+            </p>
+            <p class="card_button">
+              View All <img src="img/arrow-button-blue.svg" alt="" />
+            </p>
+          </div>
+          <img class="img_table" src="img/table_home.png" alt="Table" />
+        </div>
+        <div class="card light">
+          <div class="card_information">
+            <div class="card_items">
+              <span><strong class="blue">678+</strong> Item</span>
+            </div>
+            <h3>Light</h3>
+            <p class="card_list">
+              <span>Chandelier</span> <span>lantern pendant</span>
+              <span>multi-light pendant</span> <span>pendant light</span>
+            </p>
+            <p class="card_button">
+              View All <img src="img/arrow-button-blue.svg" alt="" />
+            </p>
+          </div>
+          <img class="img_lamp" src="img/lamp_home.png" alt="Light" />
+        </div>
+        <div class="card discount">
+          <span>30% OFFER</span>
+          <button>GET DISCOUNT</button>
+        </div>
+        <div class="card chair">
+          <div class="card_information">
+            <div class="card_items">
+              <span><strong class="blue">2000+</strong> Item</span>
+            </div>
+            <h3>Chairs</h3>
+            <p class="card_list">
+              <span>Gaming chair</span> <span>office chair</span>
+              <span>adirondack chair</span> <span>lounge chair</span>
+            </p>
+            <p class="card_button">
+              View All <img src="img/arrow-button-blue.svg" alt="" />
+            </p>
+          </div>
+          <img class="img_chair" src="img/chair_home.png" alt="Chair" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="last-collection">
+        <div class="last-collection__text">
+          <h2>View Our Latest Chair Collection</h2>
+          <p>
+            Latest chair combines innovative design, advanced materials, and
+            cutting-edge technology to create a seating experience.
+          </p>
+          <div class="button">
+            <span>Shop Now</span>
+            <img src="img/arrow-button.svg" alt="" />
+          </div>
+        </div>
+        <div class="chairs-container">
+          <div class="chairs-container__chair">
+            <img src="img/chair_home.png" alt="Nordic Chair" />
+            <div class="chair_info">
+              <span>Nordic Chair</span>
+              <span><strong>60,00€</strong></span>
+            </div>
+            <div class="buy">
+              <img class="img_shopping" src="img/shopping.svg" alt="" />
+            </div>
+          </div>
+          <div class="chairs-container__chair">
+            <img src="img/chair2_home.png" alt="Longue Chair" />
+            <div class="chair_info">
+              <span>Longue Chair</span>
+              <span><strong>60,00€</strong></span>
+            </div>
+            <div class="buy">
+              <img class="img_shopping" src="img/shopping.svg" alt="" />
+            </div>
+          </div>
+          <div class="chairs-container__chair">
+            <img src="img/chair3_home.png" alt="Office Sofa" />
+            <div class="chair_info">
+              <span>Office Sofa</span>
+              <span><strong>60,00€</strong></span>
+            </div>
+            <div class="buy">
+              <img class="img_shopping" src="img/shopping.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="background_two">
+      <div class="best-selling">
+        <h2>Our Best Selling Product</h2>
+        <div class="products-container">
+          <div class="product-container">
+            <div class="product">
+              <div class="buttons">
+                <div class="button_heart">
+                  <img src="img/heart.svg" alt="" />
+                </div>
+                <div class="offer button">-10% Off</div>
+              </div>
+              <img src="img/best_selling_1.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h4>Luxury Sofa</h4>
+              <span><img src="img/star.svg" alt="" />4.9</span>
+            </div>
+            <div class="product-info">
+              <span>230,00€ <del>250,00€</del></span>
+              <span class="blue">2 days delivery</span>
+            </div>
+          </div>
+          <div class="product-container">
+            <div class="product">
+              <div class="buttons">
+                <div class="button_heart">
+                  <img src="img/heart-fill.svg" alt="" />
+                </div>
+              </div>
+              <img class="bigger" src="img/best_selling_2.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h4>Deep Blue Sofa Set</h4>
+              <span><img src="img/star.svg" alt="" />4.9</span>
+            </div>
+            <div class="product-info">
+              <span>342,00€</span>
+              <span class="blue">2 days delivery</span>
+            </div>
+          </div>
+          <div class="product-container">
+            <div class="product">
+              <div class="buttons">
+                <div class="button_heart">
+                  <img src="img/heart.svg" alt="" />
+                </div>
+              </div>
+              <img src="img/best_selling_3.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h4>Luxury Lamp</h4>
+              <span><img src="img/star.svg" alt="" />4.9</span>
+            </div>
+            <div class="product-info">
+              <span>182€</span>
+              <span class="blue">1 day delivery</span>
+            </div>
+          </div>
+          <div class="product-container">
+            <div class="product">
+              <div class="buttons">
+                <div class="button_heart">
+                  <img src="img/heart-fill.svg" alt="" />
+                </div>
+                <div class="offer button">-10% Off</div>
+              </div>
+              <img src="img/best_selling_4.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h4>Premium Lamp</h4>
+              <span><img src="img/star.svg" alt="" />5</span>
+            </div>
+            <div class="product-info">
+              <span>70,00€ <del>90,00€</del></span>
+              <span class="blue">2 days delivery</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-social">
+        <div>
+          <img src="img/logo_furnih.svg" alt="" />
+          <p>
+            Specializes In Providing High-Quality, Stylish<br />Products For
+            Your Home
+          </p>
+        </div>
+        <div class="social-container">
+          <div class="social">
+            <img src="img/instagram.svg" alt="" />
+          </div>
+          <div class="social">
+            <img src="img/pinterest.svg" alt="" />
+          </div>
+          <div class="social">
+            <img src="img/facebook.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

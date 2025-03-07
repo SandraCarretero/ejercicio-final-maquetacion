@@ -1,0 +1,469 @@
+/* ---- MAIN SECTION ---- */
+.main-img {
+  text-align: center;
+}
+
+.main-img img {
+  max-width: 90dvw;
+  border-radius: 1.25rem;
+}
+
+.main-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-block: 1.25rem;
+  row-gap: 1.5625rem;
+}
+
+.main-points__items {
+  max-width: 42dvw;
+  width: 100%;
+  background: var(--color-cards);
+  padding: 13px 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1.25rem;
+}
+
+.main-points__items img {
+  max-width: 34%;
+}
+
+.main-points__items p {
+  color: var(--color-text);
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+/* ---- MAIN QUERIES ---- */
+@media screen and (min-width: 1024px) {
+  .main-img img {
+    max-width: 80dvw;
+  }
+
+  .main-points {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+
+  .main-points__items {
+    max-width: 19dvw;
+  }
+
+  .main-points__items img {
+    max-width: 40%;
+  }
+
+  .main-points__items p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-img img {
+    width: 65dvw;
+  }
+
+  .main-points {
+    width: 65dvw;
+  }
+
+  .main-points__items {
+    max-width: 15dvw;
+  }
+}
+/* ---- MAIN END ---- */
+
+/* ---- FURNITURE DESIGN SECTION ---- */
+
+.furniture-design {
+  display: flex;
+  flex-direction: column;
+  max-width: 90dvw;
+  margin: 20px auto;
+  gap: 30px;
+}
+
+.furniture-design__img {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.furniture-design__text {
+  background: var(--color-cards);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  color: #a8a8a8;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 19px;
+  gap: 15px;
+}
+
+.highlight {
+  background: var(--color-primary-opacity);
+  color: var(--color-primary);
+  width: max-content;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid var(--color-primary);
+  font-variant: small-caps;
+  letter-spacing: 0.0625rem;
+}
+
+.button:hover {
+  gap: 30px;
+}
+
+.button img {
+  max-width: 1.25rem;
+}
+
+/* ---- FURNITURE DESIGN QUERIES ---- */
+@media screen and (min-width: 1024px) {
+  .furniture-design {
+    flex-direction: row;
+    width: 80dvw;
+    margin-block: 50px;
+  }
+
+  .furniture-design__img {
+    width: 50%;
+  }
+
+  .furniture-design__text {
+    width: 50%;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .furniture-design {
+    width: 65dvw;
+  }
+}
+/* ---- FURNITURE DESIGN END ---- */
+
+/* ---- GRID SECTION ---- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.25rem;
+  max-width: 90dvw;
+  margin: 0px auto;
+  padding-block: 20px;
+}
+.card {
+  padding: 20px;
+  padding-right: 5px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+  background: var(--color-table);
+}
+
+.chair {
+  background: var(--color-chair);
+}
+
+.light {
+  background: var(--color-light);
+}
+
+.card_items {
+  background: white;
+  color: black;
+  padding: 5px 7px;
+  border-radius: 50px;
+  font-size: 10px;
+  margin-bottom: 6px;
+  width: max-content;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #000;
+}
+
+.card img {
+  height: 145px;
+  width: auto;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: column;
+  text-transform: lowercase;
+  gap: 3px;
+  font-size: 12px;
+  color: var(--color-text2);
+}
+
+.card_button {
+  display: flex;
+  color: var(--color-button);
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  width: max-content;
+  cursor: pointer;
+  position: relative;
+}
+
+.card_button::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  height: 2px;
+  background-color: var(--color-primary);
+  left: 0;
+  width: 0;
+}
+
+.card_button:hover::after {
+  width: 100%;
+}
+
+.card_button img {
+  width: 20px;
+  height: auto;
+}
+
+.card .img_lamp {
+  position: relative;
+  top: -23px;
+  height: 200px;
+}
+
+.discount {
+  order: 1;
+  background: linear-gradient(135deg, #003049, #02577a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+.card button {
+  background: #ff6b35;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ---- GRID QUERIES ---- */
+
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    width: 80dvw;
+    grid-template-columns: unset;
+    padding-block: 45px;
+  }
+
+  .card_information {
+    align-self: flex-start;
+  }
+
+  .card_items {
+    font-size: 12px;
+  }
+
+  .card .img_chair {
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card .img_table {
+    height: 210px;
+    position: relative;
+    right: 100px;
+  }
+
+  .card_list {
+    font-size: 18px;
+  }
+
+  .container {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .table {
+    grid-column: 1 / span 3;
+  }
+  .light {
+    grid-area: 2 / 1 / 3 / 2;
+    grid-column: 1 / span 2;
+  }
+
+  .chair {
+    grid-column: 4 / span 5;
+    grid-row: 1 / span 2;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .grid-container {
+    width: 65dvw;
+  }
+}
+
+/* ---- GRID END ---- */
+
+/* ---- LAST COLLECTION SECTION ---- */
+
+.last-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.last-collection__text {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.chairs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin-block: 60px;
+}
+
+.chairs-container__chair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  height: 241px;
+}
+
+.chairs-container__chair:hover {
+  background: var(--color-cards);
+  /* padding-inline: 100px; */
+}
+
+.chairs-container__chair:hover .buy {
+  opacity: 1;
+}
+
+.chairs-container__chair img {
+  height: 78%;
+  position: absolute;
+  top: -63px;
+  width: auto;
+}
+
+.chair_info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 35px;
+  align-items: center;
+}
+
+.buy {
+  display: flex;
+  opacity: 0;
+  background: #5b5f62;
+  margin-top: 10px;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -20px;
+  transition: all 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chairs-container__chair .img_shopping {
+  width: 22px;
+  position: static;
+}
+
+/* ---- LAST COLLECTION QUERIES ---- */
+
+@media screen and (min-width: 1024px) {
+  .last-collection {
+    flex-direction: row;
+    width: 80dvw;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .last-collection__text {
+    width: 20%;
+    margin: 0;
+  }
+
+  .chairs-container {
+    flex-direction: row;
+    width: 70%;
+    padding-top: 60px;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .last-collection {
+    width: 65dvw;
+  }
+}
+
+/* ---- LAST COLLECTION END ---- */
+
+/* ---- BEST SELLING SECTION ---- */
+.best-selling {
+  width: 80dvw;
+  margin: 0 auto;
+  padding-block: 20px;
+}
+
+/* ---- BEST SELLING QUERIES ---- */
+
+@media screen and (min-width: 1440px) {
+  .best-selling {
+    width: 65dvw;
+  }
+}
+
+/* ---- BEST SELLING END ---- */
