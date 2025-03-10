@@ -29,6 +29,7 @@ body:has(#theme-switch:checked) {
   --color-table: #959393;
   --color-chair: #8db6c7;
   --color-light: #cfa67f;
+  transition: none;
 }
 
 body:has(#theme-switch:checked) .social {
