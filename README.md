@@ -1,10 +1,6 @@
 # FURNIH
 ![Imagen del proyecto](https://github.com/SandraCarretero/ejercicio-final-maquetacion/blob/main/img/readme/furnih_landing.png)
 
-## Ejemplo en vivo
-
-  - [https://planet-app-react.onrender.com/](https://planet-app-react.onrender.com/)
-
 ## Descripción 📑
 
 
