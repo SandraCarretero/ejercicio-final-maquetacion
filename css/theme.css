@@ -3,13 +3,13 @@
 
 .ui-switch {
   --switch-bg: rgb(135, 150, 165);
-  --switch-width: 48px;
-  --switch-height: 20px;
-  --circle-diameter: 32px;
+  --switch-width: 3rem;
+  --switch-height: 1.25rem;
+  --circle-diameter: 2rem;
   --circle-bg: #21758d;
   --circle-inset: calc((var(--circle-diameter) - var(--switch-height)) / 2);
   position: absolute;
-  right: 80px;
+  right: 5rem;
 }
 
 .ui-switch input {
@@ -23,7 +23,7 @@
   width: var(--switch-width);
   height: var(--switch-height);
   background: var(--switch-bg);
-  border-radius: 999px;
+  border-radius: 62.4375rem;
   position: relative;
   cursor: pointer;
 }
@@ -55,8 +55,9 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0.125rem 0.0625rem -0.0625rem rgba(0, 0, 0, 0.2),
+    0 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.14),
+    0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.12);
 }
 
 .slider .circle::before {
@@ -90,6 +91,6 @@
 
 @media screen and (min-width: 1024px) {
   .ui-switch {
-    right: 25px;
+    right: 1.5625rem;
   }
 }
