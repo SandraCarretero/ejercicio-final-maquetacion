@@ -188,8 +188,8 @@
 }
 
 .card_items {
-  background: white;
-  color: black;
+  background: #fff;
+  color: #000;
   padding: 0.3125rem 0.4375rem;
   border-radius: 3.125rem;
   font-size: 0.625rem;
@@ -256,7 +256,7 @@
 .discount {
   order: 1;
   background: linear-gradient(135deg, #003049, #02577a);
-  color: white;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;

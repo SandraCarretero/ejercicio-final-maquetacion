@@ -90,7 +90,7 @@
 
 .submit-btn {
   background: var(--color-blue);
-  color: white;
+  color: #fff;
   padding: 0.75rem 1.25rem;
   border: none;
   cursor: pointer;

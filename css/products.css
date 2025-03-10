@@ -34,7 +34,7 @@
 .filter-btn.active,
 .filter-btn:hover {
   background: #21758d;
-  color: white;
+  color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
