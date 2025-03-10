@@ -233,7 +233,7 @@
   position: absolute;
   bottom: -3px;
   height: 2px;
-  background-color: var(--color-primary);
+  background-color: var(--color-button);
   left: 0;
   width: 0;
 }
