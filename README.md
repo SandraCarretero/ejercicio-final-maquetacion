@@ -1,9 +1,5 @@
 # FURNIH
-![Imagen del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planets_landing.png)
-
-## Ejemplo en vivo
-
-  - [https://planet-app-react.onrender.com/](https://planet-app-react.onrender.com/)
+![Imagen del proyecto](https://github.com/SandraCarretero/ejercicio-final-maquetacion/blob/main/img/readme/furnih_landing.png)
 
 ## Descripción 📑
 
@@ -37,8 +33,8 @@ Este proyecto me ha permitido poner en práctica una serie de habilidades esenci
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planetapp.png)
-![Captura del proyecto](https://github.com/SandraCarretero/planet-app-react/blob/main/public/images/planetapp-pages.png)
+![Captura del proyecto](https://github.com/SandraCarretero/ejercicio-final-maquetacion/blob/main/img/readme/furnih.png)
+![Captura del proyecto](https://github.com/SandraCarretero/ejercicio-final-maquetacion/blob/main/img/readme/furnih_landing_pages.png)
 
 ## Autor ✒️
 
